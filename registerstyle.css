@@ -392,6 +392,7 @@ body {
   font-family: "Quicksand", sans-serif;
   margin-bottom: 10px;
   text-transform: uppercase;
+  tex-align: center;
 }
 
 .styleListProducts {
