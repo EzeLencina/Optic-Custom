@@ -29,7 +29,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 body {
-  background-image: url(/Optic-Custom/assets/gif1.gif);
+  background-image: url(/assets/gif1.gif);
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
