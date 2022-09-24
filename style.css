@@ -73,7 +73,7 @@ body{
 }
 
 .hero {
-    background: url(/Optic-Custom/assets/fondo6.png) no-repeat center center fixed;
+    background: url(/assets/fondo6.png) no-repeat center center fixed;
     background-size: cover;
     background-position: center;
     height: 800px;
@@ -392,7 +392,7 @@ body{
 }
 
   .sectionSwitch{
-    background-image: url(/Optic-Custom/assets/gif3.gif);
+    background-image: url(/assets/gif3.gif);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: right;
