@@ -402,7 +402,6 @@ body{
 
 .containerSectionSwitch{
     width: 100%;
-
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -971,9 +970,7 @@ body{
 
 }
 
-/*  */
 .toggler{
-    /* ALWAYS KEEPING THE TOGGLER OR THE CHECKBOX ON TOP OF EVERYTHING :  */
     z-index: 14;
     height: 50px;
     width: 50px;
@@ -997,8 +994,6 @@ body{
     z-index: 13;
   }
   
-  /* CREATING THE MIDDLE LINE OF THE HAMBURGER : */
-  
   .hamburger > div{
       position: relative;
       top: 0;
@@ -1008,9 +1003,6 @@ body{
       width: 100%;
       transition: all  0.4s ease;
   }
-  
-  /* CREATING THE TOP AND BOTTOM LINES : 
-  TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
   
   .hamburger > div::before,
   .hamburger > div::after{
@@ -1027,8 +1019,6 @@ body{
       top: 10px;
   }
   
-  /* IF THE TOGGLER IS IN ITS CHECKED STATE, THEN SETTING THE BACKGROUND OF THE MIDDLE LAYER TO COMPLETE BLACK AND OPAQUE :  */
-  
   .toggler:checked + .hamburger > div{
       background: rgba(0,0,0,0);
   }
@@ -1038,8 +1028,6 @@ body{
       transform: rotate(45deg);
       background: rgb(255, 255, 255);
   }
-  
-  /* AND ROTATING THE TOP AND BOTTOM LINES :  */
   
   .toggler:checked + .hamburger > div::after{
       top: 0;
