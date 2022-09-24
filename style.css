@@ -73,7 +73,7 @@ body{
 }
 
 .hero {
-    background: url(/Optic-Custom/assets/fondo.jpg) no-repeat center center fixed;
+    background: url(/assets/fondo.jpg) no-repeat center center fixed;
     background-size: cover;
     background-position: left;
     height: 900px;
@@ -651,7 +651,7 @@ body{
     .hero{
         height: 800px;
         width: 100%;
-        background-image: url(/Optic-Custom/assets/mediaFondo.png);
+        background-image: url(/assets/mediaFondo.png);
         background-size: cover;
         background-position: center;
     }
