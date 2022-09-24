@@ -1,0 +1,612 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap");
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #444549;
+  
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #8071b37a;
+  border-radius: 20px;
+  border: #444549; 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/Optic-Custom/assets/gif1.gif);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+
+.sectionInfo {
+  width: 100%;
+}
+
+.divInfo {
+  width: 100%;
+  height: 35px;
+  background-color: #8071b3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.discount {
+  width: max-content;
+  height: 30px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-family: "Karla", sans-serif;
+}
+
+.headerStyle {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.329);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.socialMedia {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #545863b2;
+}
+
+.socialMail {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.mailIcon {
+  margin: 5px;
+}
+
+.socialP {
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-family: "Cairo", sans-serif;
+  text-decoration: none;
+}
+
+.socialIcon {
+  width: 10%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.aIconSocial {
+  display: flex;
+  align-items: center;
+}
+
+.iconSocial {
+  margin: 0px 5px;
+  align-items: center;
+  width: 25px;
+}
+
+.navStyle {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #545863b2;
+}
+
+.logoStyle {
+  display: flex;
+  justify-content: center;
+}
+
+.aLogo {
+  width: max-content;
+  margin-left: 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.textLogo {
+  color: white;
+  font-size: 2em;
+  font-family: "Satisfy", cursive;
+}
+
+.btnNav {
+  color: white;
+  background: none;
+  border: none;
+  font-size: 30px;
+  padding: 0 20px;
+  line-height: 60px;
+  display: none;
+}
+
+.divHeaderStyle {
+  width: max-content;
+  display: flex;
+  justify-content: center;
+}
+
+.ulStyle {
+  margin-right: 10px;
+  width: max-content;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.textNavbar {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.inputCheck{
+    margin: 10px;
+}
+
+.styletextCheck{
+    color: white;
+    text-decoration: none;
+    font-family: "Quicksand", sans-serif;
+}
+
+.textNav {
+  list-style: none;
+  color: white;
+  font-size: 1em;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+}
+
+.searchDiv {
+  width: max-content;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.aShop {
+  margin: 5px;
+}
+
+.btnShop {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  height: 35px;
+  width: 80px;
+  border: 0px solid;
+  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+  background-size: 500% 400%;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  border-radius: 50px;
+  transition: 0.6s all;
+  transition: 0.5s;
+}
+
+.btnShop:hover {
+  transform: scale(0.95);
+}
+
+.iconMedia {
+  margin: 5px;
+}
+
+.sectionLogin {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff10;
+}
+
+.containerLogin {
+  width: 500px;
+  height: 300px;
+  background-color: rgb(0 0 0 / 20%);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  flex-wrap: wrap;
+}
+
+.divTitle {
+  width: 55%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.titleLogin {
+  color: #8071b3;
+  font-size: 2em;
+  font-family: "Quicksand", sans-serif;
+  margin: 5px;
+}
+
+.btnSignUp {
+  width: 60px;
+  height: 25px;
+  font-size: 10px;
+  border-radius: 15px;
+  border-style: none;
+  background-color: #8071b3;
+}
+
+.containerInput {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputLogin {
+  width: 100%;
+  height: 25px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #e8f0fec1;
+  outline: none;
+  border-style: none;
+}
+
+.btnLogin {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.styleBTN {
+  width: 150px;
+  border-radius: 15px;
+  border-style: none;
+  height: 25px;
+  background-color: #8071b3;
+  margin: 10px;
+}
+
+.textStyleBTN {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.textForgot {
+  width: max-content;
+  margin-top: 30px;
+}
+
+.styleTextForgot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Cairo", sans-serif;
+}
+
+.footer {
+  background-color: #444549;
+  height: 302px;
+  justify-content: space-evenly;
+}
+
+.divOneFooter {
+  width: max-content;
+  height: 150px;
+  margin: 10px;
+}
+
+.divMailInfo{
+  margin-bottom: 10px;
+}
+
+.div0Footer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 250px;
+  align-items: center;
+}
+
+.div1Footer {
+  width: max-content;
+  height: 150px;
+  margin: 10px;
+}
+
+.div2Footer {
+  width: max-content;
+  height: 150px;
+  margin: 10px;
+}
+
+.div3Footer {
+  width: max-content;
+  height: 150px;
+  margin: 10px;
+}
+
+.div4Footer {
+  width: max-content;
+  height: 150px;
+  margin: 10px;
+}
+
+.logoFooter {
+  font-family: "Satisfy", cursive;
+  font-size: 2.5em;
+  color: white;
+  text-decoration: none;
+  margin: 10px 0px;
+}
+
+.mailFooter {
+  font-family: "Cairo", sans-serif;
+  color: white;
+  font-size: 1em;
+  margin: 10px 0px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.iconFooter {
+  width: 12%;
+  margin: 0px 5px;
+}
+
+.produtsFooter {
+  width: 15%;
+  height: 150px;
+}
+
+.titleProducts {
+  color: white;
+  font-size: 1.3em;
+  font-family: "Quicksand", sans-serif;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.styleListProducts {
+  text-decoration: none;
+}
+
+.itemsProducts {
+  font-family: "Quicksand", sans-serif;
+  color: white;
+  list-style: none;
+  margin: 10px 0px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  min-height: 35px;
+  max-width: 150px;
+  padding: 0 1rem;
+  color: #fff;
+  font-size: 15px;
+  border: 1px solid #8071b3;
+  border-radius: 6px 0 0 6px;
+  background-color: transparent;
+}
+
+.button--submit {
+  min-height: 35px;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 0 6px 6px 0;
+  background-color: #8071b3;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button--submit:hover {
+  background-color: #7a5bdf;
+}
+
+.input:focus,
+.input:focus-visible {
+  border-color: #8071b3;
+  outline: none;
+}
+
+.divSeparator {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.shr {
+  width: 70%;
+}
+
+.sectionLenguage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.styleCopy {
+  width: 100%;
+  display: flex;
+  margin: 8px 0px;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyRight {
+  width: 100%;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1em;
+  margin: 0px 10px;
+}
+
+.styleCopyRight {
+  width: max-content;
+}
+
+.lenguageP {
+  width: max-content;
+}
+
+.imgLenguage {
+  width: 10%;
+  margin: 0px 5px;
+}
+
+@media (max-width: 768px) {
+  .divInfo {
+    background-color: #8071b3;
+    height: 60px;
+    align-items: center;
+    font-size: 1em;
+  }
+  .socialIcon {
+    display: none;
+  }
+
+  .navStyle {
+    justify-content: space-between;
+  }
+
+  .logoStyle {
+    width: 50%;
+  }
+
+  .aLogo {
+    margin: 0;
+  }
+
+  .textLogo {
+    font-size: 1.7em;
+  }
+
+  .btnNav {
+    display: block;
+  }
+
+  .divHeaderStyle {
+    display: none;
+  }
+
+  .ulStyle {
+    display: none;
+  }
+
+  .searchDiv {
+    display: none;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .div1Footer {
+    display: none;
+  }
+
+  .div2Footer {
+    display: none;
+  }
+
+  .div3Footer {
+    display: none;
+  }
+
+  .div4Footer {
+    width: 100%;
+    height: 150px;
+    margin: 0;
+  }
+
+  .divOneFooter {
+    display: none;
+  }
+
+  .shr {
+    display: none;
+  }
+
+  .sectionLenguage{
+    width: 100%;
+    display: flex;
+  }
+
+  .styleCopy{
+    width: 100%;
+    display: flex;
+    margin: 8px 0px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .copyRight{
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    margin: 0px 10px;
+  }
+
+  .imgLenguage{
+    width: 60%;
+    margin: 5px 5px;
+  }
+
+  .lenguage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+
+  .containerLogin {
+    width: 500px;
+    margin: 0px 10px;
+  }
+
+  .btnNav {
+    display: block;
+  }
+}
