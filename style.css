@@ -73,10 +73,10 @@ body{
 }
 
 .hero {
-    background: url(/assets/fondo6.png) no-repeat center center fixed;
+    background: url(/Optic-Custom/assets/fondo.jpg) no-repeat center center fixed;
     background-size: cover;
-    background-position: center;
-    height: 800px;
+    background-position: left;
+    height: 900px;
     width: 100%;
 }
 
@@ -649,8 +649,11 @@ body{
 @media (max-width: 768px){
 
     .hero{
-        height: 500px;
+        height: 800px;
         width: 100%;
+        background-image: url(/Optic-Custom/assets/mediaFondo.png);
+        background-size: cover;
+        background-position: center;
     }
 
     .logooculto {
@@ -723,7 +726,7 @@ body{
     }
 
     .navStyle {
-        height: 350px;
+        height: 650px;
         z-index: 2;
         justify-content: center;
         align-items: center;
